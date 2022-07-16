@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/main.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="src/img/logo.png" alt="" class="logo">
+    
+            <nav class="nav">
+                <li class="nav__item active-item">
+                    <a href="#home" class="nav__item-link">
+                        Home
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#residence-row" class="nav__item-link">
+                        Residence
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__item-link">
+                        About Us
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#agents" class="nav__item-link">
+                        Agents
+                    </a>
+                </li>
+
+                <div class="changer-language">
+                    <div class="language-name">
+                        English
+                    </div>
+                    <img src="src/img/langlogo.svg" alt="" class="language-logo">
+                    <div class="arrow">
+                        <img src="src/img/arrowdown.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="btn btn-primary">
+                    Sign Up
+                </div>
+            </nav>
+            
+            <div class="hamburger-menu">
+                <div class="hamburger-menu__line" data-line="first"></div>
+                <div class="hamburger-menu__line" data-line="second"></div>
+                <div class="hamburger-menu__line" data-line="third"></div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h1 class="title">
+                Find your dream home
+            </h1>
+
+            <h4 class="subtitle">
+                This is where you can find a dream home of your choice without stress
+            </h4>
+
+            <div class="form-wrapper">
+                <h2 class="form-wrapper__title">
+                    Search the price you are looking for here
+                </h2>
+
+                <form action="submit" class="form">
+                    <div class="input-group">
+                        <input type="text" name="location" id="location" placeholder="Location">
+                        <label for="location"></label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" name="type" id="type" placeholder="Type">
+                        <label for="type"></label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" name="price" id="price" placeholder="Price">
+                        <label for="price"></label>
+                    </div>
+
+                    <button class="btn btn-primary">
+                        Search now
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="residence">
+        <div class="container">
+            <div class="row">
+                <div class="row-block">
+                    <p class="row-block__number">
+                        2100+
+                    </p>
+                    <p class="row-block__title">
+                        Premium houses
+                    </p>
+                </div>
+
+                <div class="row-block">
+                    <p class="row-block__number">
+                        2000+
+                    </p>
+                    <p class="row-block__title">
+                        Happy Customers
+                    </p>
+                </div>
+
+                <div class="row-block">
+                    <p class="row-block__number">
+                        50+
+                    </p>
+                    <p class="row-block__title">
+                        Awards
+                    </p>
+                </div>
+            </div>
+
+            <div class="column" id="residence-row">
+                 <span class="section-span">
+                    Popular
+                 </span>
+
+                 <div class="column-header">
+                    <h3 class="column-header__title section-title">
+                        Our popular residence
+                    </h3>
+
+                    <div class="column-header__link arrow-link">
+                        Explore All <img src="src/img/vectorleft.svg" alt="">
+                    </div>
+                 </div>
+
+                 <div class="popular-residence">
+                    
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="info-wrapper">
+                    <h3 class="info-wrapper__title section-title">
+                        Our Services
+                    </h3>
+    
+                    <div class="info-wrapper__text">
+                        This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressressyour
+                    </div>
+    
+                    <button class="btn btn-secondary">
+                        See More
+                    </button>
+                </div>
+
+                <div class="carousel">
+                    <div class="carousel__item">
+                        <img src="src/img/service.png" alt="" class="item-img">
+
+                        <div class="item__title">
+                            Quality Residence
+                        </div>
+                    </div>
+
+                    <div class="carousel__item">
+                        <img src="src/img/service2.png" alt="" class="item-img">
+
+                        <div class="item__title">
+                            Top notch Facilities
+                        </div>
+                    </div>
+
+                    <div class="carousel__item">
+                        <img src="src/img/service2.png" alt="" class="item-img">
+
+                        <div class="item__title">
+                            Top notch Facilities
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrows" data-for="carousel">
+                <div class="arrow-left arrow">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 12.3917H10.25H2M2 12.3917L10.25 1.54272M2 12.3917L10.25 24.4573" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+                <div class="arrow-right arrow active">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 12.3917H10.25H2M2 12.3917L10.25 1.54272M2 12.3917L10.25 24.4573" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-second">
+        <div class="container">
+            <h3 class="section-title">
+                Why choose us
+            </h3>
+
+            <p class="section-subtitle">
+                Our goal is at the heart of all that we do. We make our clients happiness our sole priority.
+            </p>
+
+            <div class="row">
+                <div class="feature-block">
+                    <div class="feature__title">
+                        <img src="src/img/insurance.png" alt="" class="feature__icon">
+                        <span class="text">
+                            Insurance
+                        </span>
+                    </div>
+
+                    <div class="feature__description">
+                        This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you 
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature__title">
+                        <img src="src/img/insurance.png" alt="" class="feature__icon">
+                        <span class="text">
+                            Insurance
+                        </span>
+                    </div>
+
+                    <div class="feature__description">
+                        This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you 
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature__title">
+                        <img src="src/img/serviceengineers.png" alt="" class="feature__icon">
+                        <span class="text">
+                            Service Engineers
+                        </span>
+                    </div>
+
+                    <div class="feature__description">
+                        This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you 
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature__title">
+                        <img src="src/img/customerservice.png" alt="" class="feature__icon">
+                        <span class="text">
+                            24/7 customer service
+                        </span>
+                    </div>
+
+                    <div class="feature__description">
+                        This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you 
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature__title">
+                        <img src="src/img/insurance.png" alt="" class="feature__icon">
+                        <span class="text">
+                            Insurance
+                        </span>
+                    </div>
+
+                    <div class="feature__description">
+                        This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you 
+                    </div>
+                </div>
+
+                <div class="feature-block">
+                    <div class="feature__title">
+                        <img src="src/img/installmental.png" alt="" class="feature__icon">
+                        <span class="text">
+                            Installmental payment
+                        </span>
+                    </div>
+
+                    <div class="feature__description">
+                        This is where you can find a dream home of your choice without stThis is where you can find a dream home of your choice without stressresThis is where you 
+                    </div>
+                </div>
+
+            <span class="arrow-link">
+                See All <img src="src/img/vectorleft.svg" alt="">
+            </span>
+        </div>
+    </section>
+
+    <section id="agents">
+        <div class="container">
+            <span class="section-span">
+                Our team
+            </span>
+
+            <h3 class="section-title">
+                Meet our team
+            </h3>
+
+            <p class="section-subtitle">
+                Our goal is at the heart of all that we do. We make our clients happiness our sole priority.
+            </p>
+
+            <div class="row">
+                <div class="person">
+                    <div class="person-image" data-person="1">
+
+                    </div>
+                    <span class="person-job">
+                        Project Manager
+                    </span>
+                </div>
+
+                <div class="person">
+                    <div class="person-image" data-person="2">
+                        
+                    </div>
+                    <span class="person-job">
+                        Marketing Head
+                    </span>
+                </div>
+
+                <div class="person">
+                    <div class="person-image" data-person="3">
+                        
+                    </div>
+                    <span class="person-job">
+                        Head of Services
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews">
+        <div class="container">
+            <span class="section-span">
+                Testimonials
+            </span>
+
+            <h3 class="section-title">
+                What clients says
+            </h3>
+
+            <p class="section-subtitle">
+                Our goal is at the heart of all that we do. We make our clients happiness our sole priority.
+            </p>
+
+            <div class="row posts-row">
+                
+            </div>
+
+            <div class="arrows" data-for="posts-row">
+                <div class="arrow-left arrow-circle arrow">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 12.3917H10.25H2M2 12.3917L10.25 1.54272M2 12.3917L10.25 24.4573" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                </div>
+                <div class="arrow-circle arrow-right arrow active">
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M24 12.3917H10.25H2M2 12.3917L10.25 1.54272M2 12.3917L10.25 24.4573" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                        
+                </div>
+            </div>
+
+            <h2 class="question-title">
+                Ready to choose your dream home?
+            </h2>
+
+            <button class="btn btn-secondary">
+                Get Started
+            </button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer__block">
+                    <img src="src/img/footerLogo.png" alt="" class="logo">
+    
+                    <p class="footer__block-quote">
+                        Our goal is at the heart of all that we do.
+                    </p>
+    
+                    <div class="social-networks">
+                        <img class="logo-network" src="src/img/facebook.svg" alt="" id="facebook">
+                        <img class="logo-network" src="src/img/twitter.svg" alt="" id="twitter">
+                        <img class="logo-network" src="src/img/linkedIn.svg" alt="" id="linkedIn">
+                    </div>
+                </div>
+    
+                <ul class="footer__list">
+                    <li class="footer__list-item active-item">
+                        Page
+                    </li>
+                    <li class="footer__list-item">
+                        Homepage
+                    </li>
+                    <li class="footer__list-item">
+                        Features
+                    </li>
+                    <li class="footer__list-item">
+                        About Us
+                    </li>
+                    <li class="footer__list-item">
+                        Agents
+                    </li>
+                </ul>
+                
+                <ul class="footer__list">
+                    <li class="footer__list-item active-item">
+                        Support
+                    </li>
+                    <li class="footer__list-item">
+                        FAQs
+                    </li>
+                    <li class="footer__list-item">
+                        Support center
+                    </li>
+                    <li class="footer__list-item">
+                        Security
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item active-item">
+                        Contact Us
+                    </li>
+                    <li class="footer__list-item">
+                        +234-70-1449-8006
+                    </li>
+                    <li class="footer__list-item">
+                        homie@gmail.com
+                    </li>
+                    <li class="footer__list-item">
+                        23, Ali express way lagos, Nigeria
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer__row">
+            2022. All Right Reserved
+        </div>
+    </footer>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
